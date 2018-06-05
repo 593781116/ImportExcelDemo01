@@ -158,7 +158,7 @@ public class Prints {//导入测试
     }
 
 
-    public static void main(String[] args) throws IOException  {
+    public static void main(String[] args) throws IOException  {//mains
 //              excel 导入数据demo
         File file = new File("D:\\用户目录\\下载\\00.xls");
         List<List<Object>> dataList=importExcel(file);
